@@ -3,7 +3,7 @@ const mysql = require('mysql');
 const cors = require('cors');
 
 
-const app =express();
+const app = express();
 app.use(cors());
 //to use json
 app.use(express.json());
